@@ -2,7 +2,7 @@
  * The atom of the SimpleBlackJack project, Card objects make up the Deck, and the Deck is
  * accessed by the Table and the dealer
  * @author Jonny Armstrong
- * -- always add 
+ * -- always add @version tag and use the date as part of that documentation
  */
 
 package com.example.jonny.simpleblackjack;
