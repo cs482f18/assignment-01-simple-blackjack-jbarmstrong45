@@ -1,6 +1,8 @@
-/** This highest level in the hierarchy of model classes in the project. The Table class houses
- *  everything from the user's hand to the Deck to the Dealer
+/** 
+ * This highest level in the hierarchy of model classes in the project. The Table class houses
+ * everything from the user's hand to the Deck to the Dealer
  * @author Jonny Armstrong
+ * ADD VERSION AND DATA INFO -- @version 1.0 09/30/2018
  */
 
 package com.example.jonny.simpleblackjack;
