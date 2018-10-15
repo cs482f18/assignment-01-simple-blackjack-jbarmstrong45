@@ -1,16 +1,25 @@
-/** The atom of the SimpleBlackJack project, Card objects make up the Deck, and the Deck is
- *  accessed by the Table and the dealer
+/** 
+ * The atom of the SimpleBlackJack project, Card objects make up the Deck, and the Deck is
+ * accessed by the Table and the dealer
  * @author Jonny Armstrong
+ * -- always add 
  */
 
 package com.example.jonny.simpleblackjack;
 
-public class Card {
+public class Card{
+    
+    /** Add a javadoc description of your instance variables */
     private int value;
     private String suit;
     public String name;
     private boolean drawn;
 
+    /**
+     * Add javadoc to the constructor with @param for parameter description 
+     * @param value the value of the card
+     * ... etc.
+     */
     public Card(int value, String suit, String name)
     {
         this.value = value;
